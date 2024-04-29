@@ -47,18 +47,6 @@ public class WeatherAndMathUtilsTest {
 		Assert.assertEquals("CANCEL", WeatherAndMathUtils.weatherAdvice(70.1, 0.0)); // Dangerous weather condition
 	}
 
-//	@Test
-//	public void testWeatherAdviceWarning() {
-//		// Test when wind speed is concerning but precipitation is below threshold
-//		Assert.assertEquals("WARNING", WeatherAndMathUtils.weatherAdvice(50.0, 3.0));
-//
-//		// Test when precipitation is concerning but wind speed is below threshold
-//		Assert.assertEquals("WARNING", WeatherAndMathUtils.weatherAdvice(40.0, 5.0));
-//
-//		// Test when both wind speed and precipitation are concerning
-//		Assert.assertEquals("WARNING", WeatherAndMathUtils.weatherAdvice(50.0, 5.0));
-//	}
-	
 	@Test
 	public void testWeatherAdviceWarning() {
 	    // Test when wind speed is concerning but precipitation is below threshold
